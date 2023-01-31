@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Matt's Webpage</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container margin-top-2">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center">Matt Curzon</h1>
+                <p class="text-center">I just started skiing this year and love it</p>
+                <img class="rounded mx-auto d-block" height="500" width="400" src="img/IMG_4983.jpg" />
+                <p class="text-center">
+                    While in this class, I hope to learn the fundamentals of developing full stack applications. I hope to be able to apply my skills and create
+                    apps that provide value to myself and those around me. I hope that this class teaches me how design and implement new features into my applications.
+                </p>
+                    <h2 class="text-center">My top 3 jobs</h2>
+                    <ul>
+                        <li>Software Engineering at a startup company</li>
+                        <li>Freelance software developer</li>
+                        <li>Project manager</li>
+                    </ul>
+                
+            </div>
+            <div class="col">
+                <form class="form-group row">
+                    <h1 class="text-center">Grade Calculator</h1>
+                    <label class="col-sm-2 col-form-label" for="assignment">Assignments</label>
+                    <input class="form-control-sm" id="assignment" /> <br />
+                    <label class="col-form-label" for="project">Group Project</label>
+                    <input class="form-control-sm" id="project" /> <br />
+                    <label class="col-form-label" for="quiz">Quizzes</label>
+                    <input class="form-control-sm" id="quiz" /> <br />
+                    <label class="col-form-label" for="midterm">Midterm</label>
+                    <input class="form-control-sm" id="midterm" /> <br />
+                    <label class="col-form-label" for="final">Final Exam</label>
+                    <input class="form-control-sm" id="final" /> <br />
+                    <label class="col-form-label" for="intex">INTEX</label>
+                    <input class="form-control-sm" id="intex" /> <br />
+                    <div>
+                        <br/>
+                    </div>
+                    <input class="btn btn-primary" id="submit" type="button" value="Submit" />
+                    <br /> <br />
+                </form>
+                <div class="container">
+                    <b><h2 id="finalGrade"></h2></b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/gradeCalculator.js"></script>
+</body>
+</html>
